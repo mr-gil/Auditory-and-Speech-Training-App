@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="14.5" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12.5"
+        android:orientation="horizontal"
+        android:weightSum="9.7" >
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="9.1"
+            android:orientation="vertical"
+            android:weightSum="12.5" >
+
+            <include layout="@layout/level2b_menu_header"  android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="3.5"/>
+            <include layout="@layout/level2a_menu_detail"  android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="9"/>
+            
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

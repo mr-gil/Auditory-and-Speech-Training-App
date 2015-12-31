@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4.6" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5"
+        android:orientation="horizontal"
+        android:weightSum="9" >
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.3" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4.4"
+            android:orientation="vertical"
+            android:weightSum="4" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.8"
+                android:src="@drawable/bu_result_page_level_2" 
+                android:contentDescription="@string/content_desc_level2"/>
+
+            <FrameLayout
+                android:id="@+id/test_one_result_menu_loc"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3.2" >
+                
+                <include 
+            	    android:layout_width="match_parent"
+            	    android:layout_height="match_parent"
+            	    layout="@layout/test_two_result_menu"
+            	    />
+            	    
+            </FrameLayout>
+        </LinearLayout>
+
+        
+    </LinearLayout>
+    <!-- the bottom section -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:orientation="horizontal"
+        android:weightSum="9" >
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3.75" />
+
+        <ImageButton
+            android:id="@+id/result_page_back_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:background="@drawable/result_page_back_btn" 
+            android:contentDescription="@string/content_desc_prev_page_btn"/>
+    </LinearLayout>
+
+</LinearLayout>

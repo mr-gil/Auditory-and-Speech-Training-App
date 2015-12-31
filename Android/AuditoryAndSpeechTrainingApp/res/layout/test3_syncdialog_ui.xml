@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/level_three_dialog_width"
+    android:layout_height="@dimen/level_three_dialog_height"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/level_three_download_dialog_indicator_size"
+        android:text="@string/download_indicator" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/test2a_sync_dialog_ok_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/level_three_download_dialog_button_ok_size"
+            android:text="好" />
+
+        <Button
+            android:id="@+id/test2a_sync_dialog_remaining_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/level_three_download_dialog_button_remaining_size"
+            android:text="只下載餘下的" />
+        
+        <Button
+            android:id="@+id/test2a_sync_dialog_cancel_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/level_three_download_dialog_button_cancel_size"
+            android:text="不要" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="9" >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.5"
+            android:orientation="horizontal"
+            android:weightSum="12" >
+            
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3.2" />
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2" >
+
+                <ImageView
+                    android:id="@+id/challenge1_sel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bu_sel_lv3"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/challenge1b"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bu_1_b_lv3"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/challenge1a"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bu_1_a_lv3" 
+                    android:contentDescription="@string/content_desc_challenge_btn_1"/>
+
+                <Button
+                    android:id="@+id/challenge1_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2" >
+
+                <ImageView
+                    android:id="@+id/challenge2_sel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bu_sel_lv3"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/challenge2b"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bu_2_b_lv3"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/challenge2a"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bu_2_a_lv3" 
+                    android:contentDescription="@string/content_desc_challenge_btn_2"/>
+
+                <Button
+                    android:id="@+id/challenge2_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2">
+
+                <ImageView
+                    android:id="@+id/challenge3_sel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bu_sel_lv3"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/challenge3b"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bu_3_b_lv3"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/challenge3a"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bu_3_a_lv3" 
+                    android:contentDescription="@string/content_desc_challenge_btn_3"/>
+
+                <Button
+                    android:id="@+id/challenge3_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent" />
+            </FrameLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.5"
+            android:orientation="horizontal"
+            android:weightSum="12" >
+            
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3.2" />
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2">
+
+                <ImageView
+                    android:id="@+id/challenge4_sel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bu_sel_lv3"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/challenge4b"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bu_4_b_lv3"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/challenge4a"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bu_4_a_lv3" 
+                    android:contentDescription="@string/content_desc_challenge_btn_4"/>
+
+                <Button
+                    android:id="@+id/challenge4_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2" >
+
+                <ImageView
+                    android:id="@+id/challenge5_sel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bu_sel_lv3"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/challenge5b"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bu_5_b_lv3"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/challenge5a"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bu_5_a_lv3" 
+                    android:contentDescription="@string/content_desc_challenge_btn_5"/>
+
+                <Button
+                    android:id="@+id/challenge5_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2" >
+
+                <ImageView
+                    android:id="@+id/challenge6_sel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bu_sel_lv3"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/challenge6b"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bu_6_b_lv3"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/challenge6a"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bu_6_a_lv3" 
+                    android:contentDescription="@string/content_desc_challenge_btn_6"/>
+
+                <Button
+                    android:id="@+id/challenge6_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent" />
+            </FrameLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.5"
+            android:orientation="horizontal"
+            android:weightSum="12" >
+			
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3.2" />
+            
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2" >
+
+                <ImageView
+                    android:id="@+id/challenge7_sel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bu_sel_lv3"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/challenge7b"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bu_7_b_lv3"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/challenge7a"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bu_7_a_lv3" 
+                    android:contentDescription="@string/content_desc_challenge_btn_7"/>
+
+                <Button
+                    android:id="@+id/challenge7_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2" >
+
+                <ImageView
+                    android:id="@+id/challenge8_sel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bu_sel_lv3"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/challenge8b"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bu_8_b_lv3"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/challenge8a"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bu_8_a_lv3" 
+                    android:contentDescription="@string/content_desc_challenge_btn_8"/>
+
+                <Button
+                    android:id="@+id/challenge8_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2" >
+
+                <ImageView
+                    android:id="@+id/challenge9_sel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bu_sel_lv3"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/challenge9b"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bu_9_b_lv3"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/challenge9a"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bu_9_a_lv3" 
+                    android:contentDescription="@string/content_desc_challenge_btn_9"/>
+
+                <Button
+                    android:id="@+id/challenge9_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent" />
+            </FrameLayout>
+        </TableRow>
+    </LinearLayout>
+
+</LinearLayout>

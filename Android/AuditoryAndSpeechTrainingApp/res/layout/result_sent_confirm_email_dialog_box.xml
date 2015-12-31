@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/result_sent_email_input_width"
+    android:layout_height="@dimen/result_sent_email_input_height"
+    android:orientation="vertical" >
+
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/result_sent_email_input_indicator_size"
+        
+        android:text="把分數送到電郵信箱" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/result_sent_email_input_your_email_indicator"
+            android:text="這是你的電郵地址：" />
+
+        <TextView
+            android:id="@+id/test_show_email_txt"
+            android:textSize="@dimen/result_sent_email_input_show_email_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/result_sent_email_input_your_email_confirm_indicator"
+            android:text="請再輸入你的電郵地址：" />
+
+        <EditText
+        android:id="@+id/result_page_email_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/result_sent_email_input_box_size"
+        android:inputType="textEmailAddress"
+        android:hint="@string/user_password_hint"
+         />
+
+        
+    
+    </LinearLayout>
+	<TextView 
+	    android:id="@+id/result_page_error_msg"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textSize="@dimen/result_sent_email_error_msg_size"
+	    />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/test_sent_email_dialog_ok_btn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/result_sent_email_input_button_size"
+            android:text="確定" />
+
+        <Button
+            android:id="@+id/test_sent_email_dialog_cancel_btn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/result_sent_email_input_button_size"
+            android:text="取消" />
+    </LinearLayout>
+
+    
+</LinearLayout>
+</LinearLayout>

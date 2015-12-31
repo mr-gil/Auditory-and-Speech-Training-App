@@ -1,0 +1,54 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="challenge_highlight_size">57dp</dimen>
+    <dimen name="challenge_width">52dp</dimen>
+    <dimen name="challenge_height">47dp</dimen>
+    <dimen name="challenge_margin">10dp</dimen>
+    <dimen name="level3_result_output_margin">2dp</dimen>
+    <dimen name="test_page_menu_bar_width">40dp</dimen>
+    <dimen name="test_page_table_cell_margin">5dp</dimen>
+    <dimen name="help_text_size">20sp</dimen>
+    
+    <dimen name="level_one_and_two_download_dialog_width">250dp</dimen>
+    <dimen name="level_one_and_two_download_dialog_height">100dp</dimen>
+    <dimen name="level_one_and_two_download_dialog_indicator_size">15sp</dimen>
+    <dimen name="level_one_and_two_download_dialog_button_ok_size">15sp</dimen>
+    <dimen name="level_one_and_two_download_dialog_button_cancel_size">15sp</dimen>
+    
+    <dimen name="level_three_dialog_width">250dp</dimen>
+    <dimen name="level_three_dialog_height">100dp</dimen>
+    <dimen name="level_three_download_dialog_indicator_size">15sp</dimen>
+    <dimen name="level_three_download_dialog_button_ok_size">15sp</dimen>
+    <dimen name="level_three_download_dialog_button_cancel_size">15sp</dimen>
+    <dimen name="level_three_download_dialog_button_remaining_size">15sp</dimen>
+
+    <dimen name="download_progress_width">250dp</dimen>
+    <dimen name="download_progress_height">100dp</dimen>
+    <dimen name="download_progress_indicator_size">15sp</dimen>
+    <dimen name="download_progress_button_text_size">15sp</dimen>
+    <dimen name="download_progress_progress">15sp</dimen>
+    
+    <dimen name="result_sent_email_input_width">400dp</dimen>
+    <dimen name="result_sent_email_input_height">300dp</dimen>
+    <dimen name="result_sent_email_input_indicator_size">15sp</dimen>
+    <dimen name="result_sent_email_input_your_email_indicator">15sp</dimen>
+    <dimen name="result_sent_email_input_your_email_confirm_indicator">15sp</dimen>
+    <dimen name="result_sent_email_input_box_size">15sp</dimen>
+    <dimen name="result_sent_email_input_button_size">15sp</dimen>
+    <dimen name="result_sent_email_error_msg_size">15sp</dimen>
+    <dimen name="result_sent_email_input_show_email_size">15sp</dimen>
+    
+    <dimen name="name_input_rules_box_width">300dp</dimen>
+    <dimen name="name_input_rules_box_height">150dp</dimen>
+    <dimen name="name_input_rules_text_size">15sp</dimen>
+    <dimen name="name_input_rules_button_txt_size">15sp</dimen>
+    
+    <dimen name="password_input_rules_box_width">300dp</dimen>
+    <dimen name="password_input_rules_box_height">150dp</dimen>
+    <dimen name="password_input_rules_text_size">15sp</dimen>
+    <dimen name="password_input_rules_button_txt_size">15sp</dimen>
+    
+</resources>

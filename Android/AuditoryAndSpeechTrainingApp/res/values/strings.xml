@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Auditory and Speech Training App</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="test_one_pic_padding_height">44</string>
+    <string name="test_one_pic_content_height">393</string>
+    <string name="test_one_pic_weightsum_for_height">481</string>
+    <string name="test_one_pic_padding_width">40</string>
+    <string name="test_one_pic_content_width">287</string>
+    <string name="test_one_pic_weightsum_for_width">367</string>
+    <string name="username_input_hint">你的姓名</string>
+    <string name="username_rules">使用者名稱只可以是“英文字母”和“數字”和“空格”和“_”和點號並且英文字母開始</string>
+    <string name="user_password_hint">你的電郵</string>
+    <string name="user_password_rules">使用者密碼是你的電郵地址，只可以是“英文字母”和“數字”和“_”和“點號”和“＠”並且英文字母開始</string>
+    <string name="test_level_one_help_content">▪	坐在兒童聽力好的一邊，留意兒童不可觀察你的嘴形。\r\n▪	跟隨遊戲指引，挑選其中一個輔助音。\r\n▪	遊戲顯示兩幅圖片，聆聽正確發音然後選擇正確圖片。\r\n▪	可重複聆聽有關發音，完成後學習下一組圖片。\r\n▪	如兒童的成績達80分以上，則可開始該輔音第二階段的訓練。</string>
+    <string name="test_level_two_help_content">▪	第二階段的訓練目的是讓兒童辨別句子中哪些字含有目標輔音。進行訓練時由四字句子開始，逐漸增加句子的長度。\r\n▪	遊戲開始前，請按鍵聆聽指引。\r\n▪	每次展示一張圖片，並讀出句子，要求兒童重複讀出。\r\n▪	根據提問，選擇正確答案。\r\n▪	如兒童的成績達100分，則完成輔音訓練。</string>
+    <string name="pg_help_content">
+<![CDATA[
+	    <html>
+	    <head>
+	    </head>
+	    <body>
+        使用者必須閱讀家長指引，才能開始遊戲。<br/>家長指引內容：本遊戲目的在於提升零至六歲聽障兒童辨別不同輔音的能力及提高他們的語音意識，並提供更多語音刺激。有關遊戲需在言語治療師、導師或專業人員帶領下使用；如家長自行下載使用，有關成績結果只作參考，如有任何查詢，可電郵至本會言語治療師，解答及協助相關查詢。<br/>
+電郵：<a href="mailto:speech@deaf.org.hk">speech@deaf.org.hk</a><br/>
+合作伙伴<br/>
+本程式由香港科技大學電子及計算機工程學系合作開發。
+<br/>
+鳴謝<br/>
+本程式由政府資訊科技總監辦公室「開發數碼共融流動應用程式資助計劃」贊助開發。
+        
+        </body>
+	    </html>
+	    ]]>
+	    </string>
+    <string name="about_us_txt">
+<![CDATA[
+	    <html>
+	    <head>
+	    </head>
+	    <body>
+	    <font color="#CC6600">歷史</font><br/>
+	    香港聾人福利促進會於1968年成立，並於1976年12月29日根據公司法例註冊成為一社團組織。本會乃一非牟利機構，旨在促進聽障人士福利及協助其在社會中獲得與任何人士同等的服務。
+	    <br/>
+	    <br/>
+	    <font color="#CC6600">宗旨</font><br/>
+	    1.	為聽障人士提供宣傳、教育、康樂、輔導、聽覺及醫療等服務；並與其他為聽障人士提供服務的組織及人士合作以改善聽障人士的福利。<br/>
+2.	致力提高聽障人士教育水平，為有需要的聽障人士提供獎學金及特別儀器；並為有關家長提供教育聽障兒童的知識。<br/>
+3.	教育社會人士有關聽障人士的困難及需要，向聽障人士及其家庭提供所需資料，並與其他有關服務機構交流意見，並促進聽障人士融入社會。<br/>
+<br/>
+	    
+<font color="#CC6600">理想</font><br/>
+為聽障人士提供全面及最高專業水平的服務，讓他們享有平等的發展機會，發揮潛能，自我實現和融入社會。
+<br/>
+<br/>
+	 
+<font color="#CC6600">聯絡我們</font><br/>
+如你在使用本程式時需要協助，請聯絡香港聾人福利促進會。
+<br/>
+網址：<a href="http://www.deaf.org.hk">http://www.deaf.org.hk</a><br/>
+電郵：<a href="mailto:info@deaf.org.hk">info@deaf.org.hk</a><br/>
+電話：<a hred="tel:25278969">2527 8969</a><br/>
+傳真：2529 3316 <br/>
+	    
+	    </body>
+	    </html>
+	    ]]>
+    </string>
+<string name="manual_txt">
+<![CDATA[
+	    <html>
+	    <head>
+	    </head>
+	    <body>
+	    本智能手機程式的目的在於提升聽障兒童辨別不同的輔助音的能力(consonant identification)及提高他們的語音意識(phonological awareness)，並提供更多語音刺激(speech sound stimulation)
+	    <br/>
+	    <br/>
+<font color="#CC6600">製作過程</font><br/>
+我們選出聽障學童聆聽時較易混淆的七個輔音為本智能手機程式的訓練目標。接著七個目標輔音中延伸出九組輔音對，進行第一階段的訓練。另外,我們就該七個目標輔音，編寫了長度不同的句子，進行第二階段的訓練。
+<br/>
+<br/>
+<font color="#CC6600">內容</font><br/>
+▪	七個目標輔音<br/>
+▪	共九組輔音對音<br/>
+<img src="conson2.png"><br/>
+<img src="conson3.png"><br/>
+各有兩組)<br/>
+<img src="conson.png"><br/>
+▪	每組輔音對各有六至十一對字對<br/>
+▪	每個目標輔音各有二十一句句子(句子長度由四字至十字，各三句)<br/>	    
+	    </body>
+	    </html>  
+ ]]> 
+</string>
+<string name="show_download_dialog">Show Download Dialog</string>
+<string name="download_indicator">你需要從伺服器下載最新資料嗎？\r\n建議使用WiFi連線下載。</string>
+<string name="download_indicator_for_single_word">你需要從伺服器下載單字測驗最新資料嗎？\r\n建議使用WiFi連線下載。</string>
+<string name="download_indicator_for_sentence">你需要從伺服器下載句子測驗最新資料嗎？\r\n建議使用WiFi連線下載。</string>
+
+    <string name="content_desc_app_name">精靈小耳朵粵語語音辨別訓練</string>
+    <string name="content_desc_cover_page_start_btn">開始遊戲</string>
+    <string name="content_desc_login_btn">登入</string>
+    <string name="content_desc_logout_btn">登出</string>
+    <string name="content_desc_about_btn">關於我們</string>
+    <string name="content_desc_instruction_btn">說明書</string>
+    <string name="content_desc_result_btn">成績單</string>
+    <string name="content_desc_level1">第一階段</string>
+    <string name="content_desc_level2">第二階段</string>
+    <string name="content_desc_level1a">學習模式第一階段</string>
+    <string name="content_desc_level1b">訓練模式第一階段</string>
+    <string name="content_desc_level2a">學習模式第二階段</string>
+    <string name="content_desc_level2b">訓練模式第二階段</string>
+    <string name="content_desc_level3">挑戰模式</string>
+    <string name="content_desc_parental_guide">家長指引</string>
+    <string name="content_desc_prev_page_btn">上一頁</string>
+    <string name="content_desc_next_page_btn">下一頁</string>
+    <string name="content_desc_level1a_title">第一階段學習方法</string>
+    <string name="content_desc_level1b_title">第一階段訓練模式</string>
+    <string name="content_desc_level2a_title">第二階段學習方法</string>
+    <string name="content_desc_level2b_title">第二階段訓練模式</string>
+    <string name="content_desc_challenge_btn_1">挑戰一</string>
+    <string name="content_desc_challenge_btn_2">挑戰二</string>
+    <string name="content_desc_challenge_btn_3">挑戰三</string>
+    <string name="content_desc_challenge_btn_4">挑戰四</string>
+    <string name="content_desc_challenge_btn_5">挑戰五</string>
+    <string name="content_desc_challenge_btn_6">挑戰六</string>
+    <string name="content_desc_challenge_btn_7">挑戰七</string>
+    <string name="content_desc_challenge_btn_8">挑戰八</string>
+    <string name="content_desc_challenge_btn_9">挑戰九</string>
+    <string name="content_desc_result_table">過往成績統計</string>
+    <string name="content_desc_home_btn">首頁</string>
+    <string name="content_desc_back_btn">返回</string>
+    <string name="content_desc_email_btn">電郵報告</string>
+    <string name="content_desc_share_btn">分享</string>
+    <string name="content_desc_name">姓名</string>
+    <string name="content_desc_email">電郵</string>
+    <string name="content_desc_award_logo">2014 無障礙網頁嘉許計劃</string>
+</resources>

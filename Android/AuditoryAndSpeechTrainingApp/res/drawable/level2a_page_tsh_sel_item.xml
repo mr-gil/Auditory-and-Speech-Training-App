@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item 
+        android:state_selected="true" 
+        android:drawable="@drawable/bu_5_b_lv1" />
+    <item 
+        android:drawable="@drawable/bu_5_a_lv1" />
+ </selector>

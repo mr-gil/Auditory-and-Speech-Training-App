@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/show_download_dialog"
+        android:orderInCategory="100"
+        android:title="@string/show_download_dialog"/>
+
+</menu>

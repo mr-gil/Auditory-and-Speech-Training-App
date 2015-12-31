@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="help_text_size">30sp</dimen>
+    <dimen name="level_one_and_two_download_dialog_width">430dp</dimen>
+    <dimen name="level_one_and_two_download_dialog_height">200dp</dimen>
+    <dimen name="level_one_and_two_download_dialog_indicator_size">30sp</dimen>
+    <dimen name="level_one_and_two_download_dialog_button_ok_size">30sp</dimen>
+    <dimen name="level_one_and_two_download_dialog_button_cancel_size">30sp</dimen>
+    
+    <dimen name="level_three_dialog_width">430dp</dimen>
+    <dimen name="level_three_dialog_height">200dp</dimen>
+    <dimen name="level_three_download_dialog_indicator_size">30sp</dimen>
+    <dimen name="level_three_download_dialog_button_ok_size">30sp</dimen>
+    <dimen name="level_three_download_dialog_button_cancel_size">30sp</dimen>
+    <dimen name="level_three_download_dialog_button_remaining_size">30sp</dimen>
+    
+    <dimen name="download_progress_width">250dp</dimen>
+    <dimen name="download_progress_height">200dp</dimen>
+    <dimen name="download_progress_indicator_size">30sp</dimen>
+    <dimen name="download_progress_button_text_size">30sp</dimen>
+    <dimen name="download_progress_progress">30sp</dimen>
+    
+    <dimen name="result_sent_email_input_width">700dp</dimen>
+    <dimen name="result_sent_email_input_height">500dp</dimen>
+    <dimen name="result_sent_email_input_indicator_size">30sp</dimen>
+    <dimen name="result_sent_email_input_your_email_indicator">30sp</dimen>
+    <dimen name="result_sent_email_input_your_email_confirm_indicator">30sp</dimen>
+    <dimen name="result_sent_email_input_box_size">30sp</dimen>
+    <dimen name="result_sent_email_input_button_size">30sp</dimen>
+    <dimen name="result_sent_email_error_msg_size">30sp</dimen>
+    <dimen name="result_sent_email_input_show_email_size">30sp</dimen>
+    
+    <dimen name="name_input_rules_box_width">450dp</dimen>
+    <dimen name="name_input_rules_box_height">200dp</dimen>
+    <dimen name="name_input_rules_text_size">30sp</dimen>
+    <dimen name="name_input_rules_button_txt_size">30sp</dimen>
+    
+    <dimen name="password_input_rules_box_width">450dp</dimen>
+    <dimen name="password_input_rules_box_height">200dp</dimen>
+    <dimen name="password_input_rules_text_size">30sp</dimen>
+    <dimen name="password_input_rules_button_txt_size">30sp</dimen>
+
+</resources>

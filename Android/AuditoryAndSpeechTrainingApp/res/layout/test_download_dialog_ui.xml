@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/download_progress_width"
+    android:layout_height="@dimen/download_progress_height"
+    android:orientation="vertical" >
+	
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/download_progress_indicator_size"
+        android:text="下載中..." />
+    
+    <TextView
+        android:id="@+id/test_show_downloads_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/download_progress_progress"
+         />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+		<Button
+            android:id="@+id/test_download_dialog_cancel_btn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/download_progress_button_text_size"
+            android:text="取消" />
+    </LinearLayout>
+
+</LinearLayout>
